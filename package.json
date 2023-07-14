@@ -1,0 +1,23 @@
+{
+  "name": "github_avatar",
+  "version": "1.0.0",
+  "description": "This is a fullstack graphql and reactjs app",
+  "main": "index.js",
+  "author": "Sehajpreet Singh",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently --kill-others \"node server/app.js\" \"cd client && npm start\""
+  },
+  "dependencies": {
+    "@apollo/federation": "^0.38.1",
+    "apollo-datasource-rest": "^3.7.0",
+    "apollo-server": "^3.12.0",
+    "axios": "^1.4.0",
+    "concurrently": "^8.2.0",
+    "graphql": "^16.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
