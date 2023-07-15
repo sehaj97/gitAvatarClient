@@ -6,7 +6,7 @@
   "author": "Sehajpreet Singh",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently --kill-others \"node server/app.js\" \"cd client && npm start\""
+    "start": "concurrently --kill-others \"node server/server.js\" \"cd client && npm start\""
   },
   "dependencies": {
     "@apollo/federation": "^0.38.1",
