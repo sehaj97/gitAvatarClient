@@ -14,7 +14,7 @@ import reportWebVitals from "./reportWebVitals";
 const createApolloClient = () => {
   return new ApolloClient({
     link: new HttpLink({
-      uri: "https://gitava.netlify.app/",
+      uri: "https://gitavatarserver.netlify.app/",
     }),
     cache: new InMemoryCache(),
   });
